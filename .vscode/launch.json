@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "TrustGate API",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["app.main:app", "--reload", "--port", "8000"]
+    },
+    {
+      "name": "TrustGate GUI",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "gui/dashboard.py"]
+    }
+  ],
+  "compounds": [
+    { "name": "API + GUI", "configurations": ["TrustGate API", "TrustGate GUI"] }
+  ]
+}
