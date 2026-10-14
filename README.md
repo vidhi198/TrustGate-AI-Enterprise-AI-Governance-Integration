@@ -57,7 +57,13 @@ streamlit run gui/dashboard.py                # terminal 2
 Or `./run_local.sh`, or `docker compose up --build`.
 
 - API docs: http://localhost:8000/docs
+<img width="960" height="565" alt="Backend- TrustGate Fast API" src="https://github.com/user-attachments/assets/b9cd4f0e-0d5d-40dd-b15b-51c4cefa9903" />
+
+  
 - Dashboard: http://localhost:8501
+<img width="960" height="562" alt="Dashboard- TrustGate AI" src="https://github.com/user-attachments/assets/7f08d212-28c5-4740-ad6a-34f17371852a" />
+
+  
 - Note: `&&` is not valid in Windows PowerShell 5.x; run commands on separate lines.
 
 ## Demo identities (public demo keys, NOT production secrets)
